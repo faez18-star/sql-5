@@ -10,11 +10,11 @@ CREATE TABLE IF NOT EXISTS PRODUCTS (
 
 -- Insert sample data into the PRODUCTS table
 INSERT INTO PRODUCTS (PRODUCT_ID, PRODUCT_NAME, SUPPLIER_ID, CATEGORY_ID, UNIT, PRICE) VALUES
-  ('1', 'CHAIS', '1', '1', '10 BOXES*20 BAGS', 18),
-  ('2', 'CHANG', '1', '1', '24-12 OZ BOTTLES', 19),
-  ('3', 'ANISEED SYRUP', '1', '2', '12-550 ML BOTTLES', 10),
-  ('4', 'CHEF ANTON SEASONING', '2', '2', '48- 6 OZ JARS', 22),
-  ('5', 'CHEF ANTON MIX', '2', '2', '36 BOXES', 21.35);
+  ('1', 'CHAIS', '1', '1', '10 BOXES*20 BAGS', 89),
+  ('2', 'CHANG', '1', '1', '24-12 OZ BOTTLES', 80),
+  ('3', 'ANISEED SYRUP', '1', '2', '12-550 ML BOTTLES', 100),
+  ('4', 'CHEF ANTON SEASONING', '2', '2', '48- 6 OZ JARS', 110),
+  ('5', 'CHEF ANTON MIX', '2', '2', '36 BOXES', 121.35);
 
 -- Query to count the number of products
 SELECT COUNT(PRODUCT_ID) AS Product_Count
